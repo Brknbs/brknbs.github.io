@@ -1994,7 +1994,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3.5em 3em 1em 3em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2203,7 +2203,7 @@ input, select, textarea {
 					left: 1.5em;
 					top: 2em;
 				}
-
+			
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2612,6 +2612,22 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
+	@media screen and (max-width: 736px) {
+		#pp {
+			display: block;
+			margin: auto;
+		}
+		#pp-container {
+			margin-left: 0px;
+		}
+	}
+
+	@media screen and (min-width: 737px) {
+		#pp-container {
+			margin-left: 50px;
+		}
+	}
 
 /* List */
 
